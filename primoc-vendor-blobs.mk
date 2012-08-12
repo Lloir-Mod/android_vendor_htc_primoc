@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/etc/firmware/fw_bcm4330_p2p_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/vendor/firmware/fw_bcm4330_p2p_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/etc/firmware/fw_bcm4330_p2p_b1.bin \
-    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/vendor/firmware/fw_bcm4330_p2p_b1.bin  
+    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/vendor/firmware/fw_bcm4330_p2p_b1.bin
 
 # QCOM Drivers
 PRODUCT_COPY_FILES += \
@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/primoc/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/primoc/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/htc/primoc/proprietary/lib/libcentralZoomTransition.so:system/lib/libcentralZoomTransition.so \  
+    vendor/htc/primoc/proprietary/lib/libcentralZoomTransition.so:system/lib/libcentralZoomTransition.so \
     vendor/htc/primoc/proprietary/lib/libchromatix_s5k4e5yx_default_video.so:system/lib/libchromatix_s5k4e5yx_default_video.so \
     vendor/htc/primoc/proprietary/lib/libchromatix_s5k4e5yx_hdr.so:system/lib/libchromatix_s5k4e5yx_hdr.so \
     vendor/htc/primoc/proprietary/lib/libchromatix_s5k4e5yx_hfr.so:system/lib/libchromatix_s5k4e5yx_hfr.so \
@@ -90,20 +90,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/primoc/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/primoc/proprietary/lib/libzoomTransition.so:system/lib/libzoomTransition.so \
-    vendor/htc/primoc/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so 
+    vendor/htc/primoc/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so
 
 # Ril
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
-    vendor/htc/primoc/proprietary/lib/libdll.so:/system/lib/libdll.so \    
-    vendor/htc/primoc/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \    
+    vendor/htc/primoc/proprietary/lib/libdll.so:/system/lib/libdll.so \
+    vendor/htc/primoc/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/primoc/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
     vendor/htc/primoc/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/primoc/proprietary/lib/libidl.so:/system/lib/libidl.so \
     vendor/htc/primoc/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/primoc/proprietary/lib/libril.so:/system/lib/libril.so \
     vendor/htc/primoc/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-    vendor/htc/primoc/proprietary/lib/libqmi.so:/system/lib/libqmi.so        
+    vendor/htc/primoc/proprietary/lib/libqmi.so:/system/lib/libqmi.so
 
 # Because I see it everywhere else
 PRODUCT_COPY_FILES += \
@@ -118,6 +118,6 @@ PRODUCT_COPY_FILES += \
 
 # Temp because I'm an idiot
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/etc/audio_effects.conf.csv:system/etc/audio_effects.conf
+    vendor/htc/primoc/proprietary/etc/audio_effects.conf.csv:system/etc/audio_effects.conf \
     vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
     vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so
