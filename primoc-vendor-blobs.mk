@@ -118,11 +118,6 @@ PRODUCT_COPY_FILES += \
 
 # Temp because I'm an idiot
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/etc/audio_effects.conf.csv:system/etc/audio_effects.conf \
-    vendor/htc/primoc/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+    vendor/htc/primoc/proprietary/etc/audio_effects.conf.csv:system/etc/audio_effects.conf
     vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
-    vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so
+    vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so
