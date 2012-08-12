@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/primoc/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/primoc/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 # Audio Blobs
 PRODUCT_COPY_FILES += \
